@@ -1,8 +1,8 @@
 {
-  "name": "biblioteca",
-  "productName": "botilleria",
+  "name": "gestion_alunos",
+  "productName": "gestion_alunos",
   "version": "1.0.0",
-  "description": "Botilleria Market",
+  "description": "Gestión de Alumnos",
   "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -48,7 +48,10 @@
     "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^8.0.2",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "puppeteer": "^22.10.1",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",

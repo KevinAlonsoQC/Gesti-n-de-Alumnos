@@ -89,3 +89,7 @@ typings/
 
 # Electron-Forge
 out/
+
+#Database y alumnos
+database.db
+alumnos.xlsx
